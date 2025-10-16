@@ -27,3 +27,9 @@ vim.keymap.set('v', '<leader>p', '"+p')
 vim.keymap.set('v', '<leader>P', '"+P')
 vim.keymap.set('n', '<leader>p', '"+p')
 vim.keymap.set('n', '<leader>P', '"+P')
+
+-- making it so that the arrows dont work in normal mode
+vim.keymap.set('n', '<left>', ":echo 'use h to move left in normal mode'<CR>")
+vim.keymap.set('n', '<right>', ":echo 'use l to move right in normal mode'<CR>")
+vim.keymap.set('n', '<up>', ":echo 'use k to move up in normal mode'<CR>")
+vim.keymap.set('n', '<down>', ":echo 'use j to move down in normal mode'<CR>")
