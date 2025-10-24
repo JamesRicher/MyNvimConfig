@@ -33,3 +33,6 @@ vim.keymap.set('n', '<left>', ":echo 'use h to move left in normal mode'<CR>")
 vim.keymap.set('n', '<right>', ":echo 'use l to move right in normal mode'<CR>")
 vim.keymap.set('n', '<up>', ":echo 'use k to move up in normal mode'<CR>")
 vim.keymap.set('n', '<down>', ":echo 'use j to move down in normal mode'<CR>")
+
+-- setting scrolloff
+vim.opt.scrolloff = 8
