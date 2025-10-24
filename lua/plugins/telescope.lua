@@ -8,7 +8,13 @@ return
         telescope.setup {
             defaults = {
                 vimgrep_arguments = {
-                    '--case-sensitive',
+                    "rg",
+                    "--color=never",
+                    "--no-heading",
+                    "--with-filename",
+                    "--line-number",
+                    "--column",
+                    "--case-sensitive",
                 },
             },
         }
